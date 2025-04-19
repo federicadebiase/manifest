@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://raw.githubusercontent.com/federicadebiase/manifest/main/manifest.json",
+    "id": "https://federicadebiase.github.io/manifest/manifest_with_annotations.json",
     "type": "Manifest",
     "label": "Manoscritto di esempio",
     "items": [
