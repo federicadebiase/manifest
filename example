@@ -16,6 +16,27 @@
       },
       "items": [
         {
+          "id": "https://example.org/iiif/canvas/page1/painting",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/canvas/page1/painting/anno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 640,
+                "height": 640
+              },
+              "target": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
           "id": "https://example.org/iiif/canvas/page1/annotations",
           "type": "AnnotationPage",
           "items": [
@@ -25,8 +46,7 @@
               "motivation": "highlighting",
               "body": {
                 "type": "TextualBody",
-                "value": "CustomZone-Poem - This is a custom annotation zone for the poem",
-                "format": "text/plain"
+                "value": "CustomZone-Poem"
               },
               "target": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg#xywh=356,67,190,497"
             },
@@ -36,7 +56,23 @@
               "motivation": "highlighting",
               "body": {
                 "type": "TextualBody",
-                "value": "CustomZone-Poem - This annotation highlights a specific zone",
-                "format": "text/plain"
+                "value": "CustomZone-Poem"
               },
-              "target": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.
+              "target": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg#xywh=150,79,203,480"
+            },
+            {
+              "id": "https://example.org/iiif/canvas/page1/annotations/3",
+              "type": "Annotation",
+              "motivation": "highlighting",
+              "body": {
+                "type": "TextualBody",
+                "value": "DropCapitalZone"
+              },
+              "target": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg#xywh=346,265,29,59"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
