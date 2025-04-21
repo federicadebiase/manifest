@@ -16,6 +16,27 @@
       },
       "items": [
         {
+          "id": "https://example.org/iiif/canvas/page1/painting",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/canvas/page1/painting/anno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 640,
+                "height": 640
+              },
+              "target": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
           "id": "https://example.org/iiif/canvas/page1/annotations",
           "type": "AnnotationPage",
           "items": [
