@@ -40,10 +40,6 @@
                 "format": "text/plain"
               },
               "target": "https://raw.githubusercontent.com/federicadebiase/manifest/main/train/plutei_canvas_canvas_c135_jpg.rf.935346a38f7d63687d003a73b03ca08f.jpg#xywh=150,79,203,480"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+            },
+            {
+              "id": "https://example.org/iiif/canvas/page
